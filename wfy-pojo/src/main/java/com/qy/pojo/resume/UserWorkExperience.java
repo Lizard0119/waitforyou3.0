@@ -8,5 +8,5 @@ public class UserWorkExperience {
     //工作经历id
     private Integer workExperienceId;
     //用户id
-    private String userId;
+    private Integer userId;
 }
