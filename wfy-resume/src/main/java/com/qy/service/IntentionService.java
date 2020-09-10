@@ -1,14 +1,12 @@
-package com.qy.dao;
+package com.qy.service;
 
 
 import com.qy.pojo.resume.Intention;
-import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
 
-@Mapper
-public interface IntentionDao {
+public interface IntentionService {
 
     //查询所有的求职意向
     List<Intention> findResumeByIntentionId(Integer uesrId);
