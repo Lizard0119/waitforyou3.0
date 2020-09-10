@@ -16,6 +16,7 @@
         <module>wfy-search</module>
         <module>wfy-resume</module>
         <module>wfy-zuul</module>
+        <module>wfy-interview</module>
     </modules>
 
     <parent>
